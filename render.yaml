@@ -6,6 +6,6 @@ plan: free
 healthCheckPath: /health
 envVars:
 - key: SERVER_URL
-value: https://evolution-api-sua-url.onrender.com
+value: https://multilogia-api.onrender.com
 - key: AUTH_TOKEN
 value: multilogia-flow-secret
