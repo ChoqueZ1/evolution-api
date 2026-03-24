@@ -1,0 +1,10 @@
+version: '3'
+services:
+evolution_api:
+image: evolutionapi/evolution-api:v2.7.0
+restart: always
+ports:
+- "8080:8080"
+environment:
+- SERVER_URL=http://localhost:8080
+- AUTH_TOKEN=multilogia-flow-secret
