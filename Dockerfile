@@ -1,2 +1,2 @@
-FROM evolutionapi/evolution-api:2.7.0
+FROM pavanratnakar/evolution-api:latest
 EXPOSE 8080
